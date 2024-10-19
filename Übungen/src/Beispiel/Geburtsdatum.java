@@ -1,3 +1,4 @@
+package Beispiel;
 public class Geburtsdatum {
 	private int geburtstag;
 	private int geburtsmonat;
