@@ -13,11 +13,10 @@ public class AnwendersystemModel {
 	public String getÜberschrift() {
 		return "Hallo";
 	}
-	
-	
+
 	public void schreibeinDatei(String text) throws IOException {
 		BufferedWriter buffer = new BufferedWriter(new FileWriter("Text.txt"));
 		buffer.write(text);
-		buffer. close();	
+		buffer.close();
 	}
 }

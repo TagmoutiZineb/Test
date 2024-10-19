@@ -8,11 +8,11 @@ public class AnwendersystemControl {
 	private AnwendersystemView anwView;
 
 	public AnwendersystemControl(Stage primaryStage) {
-		this.anwModel=new AnwendersystemModel();
-		this.anwView=new AnwendersystemView(this, primaryStage, anwModel);
+		this.anwModel = new AnwendersystemModel();
+		this.anwView = new AnwendersystemView(this, primaryStage, anwModel);
 	}
-	
-	public void schreibinDatei(String text ) {
+
+	public void schreibinDatei(String text) {
 		try {
 			this.anwModel.schreibeinDatei(text);
 			this.anwView.zeigInformationFenster("Der Text wurde in die Datei geschrieben");

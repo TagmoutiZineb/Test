@@ -55,15 +55,12 @@ public class AnwendersystemView {
 		alert.setContentText(meldung);
 		alert.showAndWait();
 	}
-	
+
 	void zeigFehlermeldung(String meldung) {
 		Alert alert = new Alert(AlertType.ERROR);
 		alert.setTitle("Fehlermeldung");
 		alert.setContentText(meldung);
 		alert.showAndWait();
 	}
-
-
-
 
 }
